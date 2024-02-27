@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .full_body{
-    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(241, 241, 241); */
 }
 .first_dashboard nav{
     display: flex;
