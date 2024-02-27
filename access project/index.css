@@ -40,7 +40,6 @@
 }
 .second_nav{
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
     background-color: white;
 
