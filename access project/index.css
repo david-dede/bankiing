@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .full_body{
-    /* background-color: rgb(241, 241, 241); */
+    background-color: rgb(241, 241, 241);
 }
 .first_dashboard nav{
     display: flex;
@@ -25,9 +25,7 @@
 .nav1:nth-child(7){
     color: rgb(238, 126, 3);
 }
-/* .nav1:hover{
-    color: rgb(238, 126, 3);
-} */
+
 .first_dashboard .dis{
     background-color: transparent;
     cursor: grab;
