@@ -73,10 +73,7 @@
 }
 .first_image{
 background: url(./pictures/first\ picture\ 1.png);
-    /* height: 100px; */
     background-size: cover ;
-    /* background-attachment: fixed; */
-    /* padding: 200px; */
     /* color: rgb(255, 255, 255); */
     position: relative;
     /* background-color: rgb(2, 2, 2); */
