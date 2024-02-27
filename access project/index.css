@@ -138,7 +138,6 @@ background: url(./pictures/first\ picture\ 1.png);
 }
 .green_display .dis:hover{
         box-shadow: inset 400px 0 0 0 rgb(238, 126, 3);
-        /* color: rgb(238, 126, 3); */
         
 }
 
