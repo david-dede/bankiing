@@ -74,9 +74,7 @@
 .first_image{
 background: url(./pictures/first\ picture\ 1.png);
     background-size: cover ;
-    /* color: rgb(255, 255, 255); */
     position: relative;
-    /* background-color: rgb(2, 2, 2); */
 }
 .details{
     padding: 200px;
