@@ -81,7 +81,6 @@ background: url(./pictures/first\ picture\ 1.png);
     color: white;
     z-index: 1;
     position: relative;
-    /* margin: 20px 10px; */
     
 }
 
@@ -119,7 +118,6 @@ background: url(./pictures/first\ picture\ 1.png);
 .green_display{
     display: flex;
     padding: 0px 70px ;
-    /* background-color: green; */
     
 }
 .icon{
