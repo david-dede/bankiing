@@ -1,32 +1,36 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.full_body{
+
+.full_body {
     background-color: rgb(241, 241, 241);
 }
-.first_dashboard nav{
+
+.first_dashboard nav {
     display: flex;
     flex-direction: row;
     padding: 0px 40px;
-    
+
 }
-.nav1{
+
+.nav1 {
     padding: 10px 15px;
     font-size: 15px;
     cursor: grab;
-    caret-color:rgb(238, 126, 3) ;
+    caret-color: rgb(238, 126, 3);
     margin-top: 4px;
     padding-top: 10px;
     background-color: rgb(241, 241, 241);
-    
+
 }
-.nav1:nth-child(7){
+
+.nav1:nth-child(7) {
     color: rgb(238, 126, 3);
 }
 
-.first_dashboard .dis{
+.first_dashboard .dis {
     background-color: transparent;
     cursor: grab;
     box-shadow: inset 0 0 0 0 rgb(238, 126, 3);
@@ -34,102 +38,119 @@
     color: rgb(85, 85, 85);
 }
 
-.first_dashboard .dis:hover{
+.first_dashboard .dis:hover {
     box-shadow: inset 200px 0 0 0 rgb(238, 126, 3);
     color: rgb(238, 126, 3);
 }
-.second_nav{
+
+.second_nav {
     display: flex;
     justify-content: space-between;
     background-color: white;
 
 }
-.logo{
+
+.logo {
     padding: 5px 20px;
 }
-.second_nav_left{
+
+.second_nav_left {
     display: flex;
 
 }
-.items{
+
+.items {
     display: flex;
 
 }
-.nav2{
+
+.nav2 {
     padding: 20px;
     background-color: white;
     margin-bottom: 5px;
     font-size: 15px;
 }
-.items .dis{
+
+.items .dis {
     background-color: transparent;
     cursor: grab;
     box-shadow: inset 0 0 0 0 rgb(238, 126, 3);
     transition: ease-out 0.3s;
 }
-.items .dis:hover{
+
+.items .dis:hover {
     box-shadow: inset 200px 0 0 0 rgb(238, 126, 3);
-    color:rgb(238, 126, 3) ;
+    color: rgb(238, 126, 3);
 }
-.first_image{
-background: url(./pictures/first\ picture\ 1.png);
-    background-size: cover ;
+
+.first_image {
+    background: url(./pictures/first\ picture\ 1.png);
+    background-size: cover;
     position: relative;
 }
-.greenline{
+
+.greenline {
     background-color: greenyellow;
     height: 200px;
     width: 30px;
     margin-left: 100px;
     transform: skew(30deg);
 }
-.details{
+
+.details {
     color: white;
     z-index: 1;
     position: relative;
-    
+
 }
 
 
-.first_image .head{
+.first_image .head {
     font-size: 48px;
     font-weight: bolder;
     z-index: -1;
-        color: white;
+    color: white;
 }
-.first_image .subhead{
+
+.first_image .subhead {
     font-size: 48px;
     font-weight: lighter;
     margin-bottom: 20px;
 }
-.sentence{
+
+.sentence {
     font-size: 16px;
     margin-bottom: 20px;
 }
-.details button{
-    padding:  6px 12px;
+
+.details button {
+    padding: 6px 12px;
     background-color: transparent;
     border: 2px white solid;
     color: white;
     font-size: 16px;
     margin-bottom: 20px;
 }
-.color_overlayed{
+
+.color_overlayed {
     width: 100%;
     height: 100%;
     background: black;
     position: absolute;
     opacity: .2;
 }
-.green_display{
+
+.green_display {
     display: flex;
-    padding: 0px 70px ;
-    
+    padding: 0px 70px;
+
 }
-.icon{
+
+.icon {
     font-size: 30px;
 }
-.item{
+
+.item {
     padding: 20px;
     background-color: rgb(164, 197, 25);
     margin-top: -40px;
@@ -141,22 +162,24 @@ background: url(./pictures/first\ picture\ 1.png);
 .dis:nth-child(2) .item {
     border-left: solid 0.5px white;
 }
+
 .dis:nth-child(3) .item {
     border-left: solid 0.5px white;
 }
+
 .dis:nth-child(4) .item {
     border-left: solid 0.5px white;
 }
 
-.green_display .dis{
+.green_display .dis {
     background-color: transparent;
-        cursor: grab;
-        box-shadow: inset 0 0 0 0 rgb(238, 126, 3);        transition: ease-out 0.3s;
-        padding-bottom: 100px;
-}
-.green_display .dis:hover{
-        box-shadow: inset 400px 0 0 0 rgb(238, 126, 3);
-        
+    cursor: grab;
+    box-shadow: inset 0 0 0 0 rgb(238, 126, 3);
+    transition: ease-out 0.3s;
+    padding-bottom: 100px;
 }
 
+.green_display .dis:hover {
+    box-shadow: inset 400px 0 0 0 rgb(238, 126, 3);
 
+}
