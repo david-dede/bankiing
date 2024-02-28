@@ -137,9 +137,7 @@ background: url(./pictures/first\ picture\ 1.png);
     position: relative;
 }
 
-/* .dis .item:nth-child(2){
-    border-left: solid 0.5px white;
-} */
+
 .dis:nth-child(2) .item {
     border-left: solid 0.5px white;
 }
