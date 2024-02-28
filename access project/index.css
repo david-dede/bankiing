@@ -84,7 +84,6 @@ background: url(./pictures/first\ picture\ 1.png);
     transform: skew(30deg);
 }
 .details{
-    /* padding: 200px; */
     color: white;
     z-index: 1;
     position: relative;
