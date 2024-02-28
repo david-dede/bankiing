@@ -76,8 +76,15 @@ background: url(./pictures/first\ picture\ 1.png);
     background-size: cover ;
     position: relative;
 }
+.greenline{
+    background-color: greenyellow;
+    height: 200px;
+    width: 30px;
+    margin-left: 100px;
+    transform: skew(30deg);
+}
 .details{
-    padding: 200px;
+    /* padding: 200px; */
     color: white;
     z-index: 1;
     position: relative;
@@ -130,6 +137,22 @@ background: url(./pictures/first\ picture\ 1.png);
     z-index: auto;
     position: relative;
 }
+/* .dis .item{
+    border: none;
+} */
+/* .dis .item:nth-child(2){
+    border-left: solid 0.5px white;
+} */
+.dis:nth-child(2) .item {
+    border-left: solid 0.5px white;
+}
+.dis:nth-child(3) .item {
+    border-left: solid 0.5px white;
+}
+.dis:nth-child(4) .item {
+    border-left: solid 0.5px white;
+}
+
 .green_display .dis{
     background-color: transparent;
         cursor: grab;
