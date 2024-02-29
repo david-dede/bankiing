@@ -90,11 +90,11 @@
 }
 
 .greenline {
-    background-color: greenyellow;
-    height: 200px;
-    width: 30px;
-    margin-left: 100px;
-    transform: skew(30deg);
+    background-color: rgb(238, 126, 3);
+    height: 250px;
+    width: 15px;
+    margin-left: -10px;
+    transform: skew(-40deg);
 }
 
 .details {
@@ -103,7 +103,9 @@
     position: relative;
 
 }
-
+.det{
+    padding: 0px 200px 200px 200px;
+}
 
 .first_image .head {
     font-size: 48px;
@@ -143,6 +145,9 @@
 .green_display {
     display: flex;
     padding: 0px 70px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 30;
 
 }
 
@@ -153,33 +158,45 @@
 .item {
     padding: 20px;
     background-color: rgb(164, 197, 25);
-    margin-top: -40px;
+    /* margin-top: -40px; */
     z-index: auto;
     position: relative;
 }
 
 
-.dis:nth-child(2) .item {
+.dis:nth-child(2)  {
     border-left: solid 0.5px white;
 }
 
-.dis:nth-child(3) .item {
+.dis:nth-child(3)  {
     border-left: solid 0.5px white;
 }
 
-.dis:nth-child(4) .item {
+.dis:nth-child(4)  {
     border-left: solid 0.5px white;
+    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
 }
 
 .green_display .dis {
     background-color: transparent;
     cursor: grab;
-    box-shadow: inset 0 0 0 0 rgb(238, 126, 3);
+    box-shadow: inset 0 0 0 0 rgb(164, 197, 25);
     transition: ease-out 0.3s;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+    background-color: rgb(164, 197, 25);
+
+
 }
+/* .green_display .dis:nth-child(4){
+    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+    z-index: 30;
+} */
 
 .green_display .dis:hover {
-    box-shadow: inset 400px 0 0 0 rgb(238, 126, 3);
+    box-shadow: inset 400px 0 0 0 rgb(255, 255, 255);
 
 }
+/* .green_display .dis:nth-child(4):hover {
+    box-shadow: inset 260px 0 0 0 rgb(238, 126, 3);
+
+} */
