@@ -203,11 +203,14 @@
 .info .head{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    
 }
 .info .head h1:nth-child(1){
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 32px;
 }
 .info .head h1:nth-child(2) {
     font-weight: lighter;
+    font-size: 32px;
 }
