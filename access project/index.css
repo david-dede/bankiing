@@ -200,3 +200,14 @@
     box-shadow: inset 260px 0 0 0 rgb(238, 126, 3);
 
 } */
+.info .head{
+    display: flex;
+    gap: 10px;
+}
+.info .head h1:nth-child(1){
+    font-weight: bolder;
+    font-size: 50px;
+}
+.info .head h1:nth-child(2) {
+    font-weight: lighter;
+}
