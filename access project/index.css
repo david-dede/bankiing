@@ -229,12 +229,14 @@
     height: 400px;
     width: 288px;
     padding: 32px 0px 32px 32px;
+    border-right: 1px solid white;
 }
 .loan_container .box:nth-child(2) {
     background-color: rgb(238, 126, 3);
     height: 400px;
     width: 512px;
     padding: 48px;
+    font-size: 16px;
 }
 .loan_container .box:nth-child(3) {
     background-color: rgb(38, 126, 3);
@@ -259,10 +261,36 @@ padding:20px 35px;
 .loan_container .box:nth-child(1) .write{
     font-size: 16px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: ; */
     /* padding: 35px; */
 }
 .loan_container .box .terms{
     background-color: rgb(199, 107, 6);
+    padding: 10px;
+    margin-left: 20px;
+}
+.loan_container .box:nth-child(3) .head{
+    font-size: 16px;
+    color: black;
+    /* font-weight: bold; */
+}
+.loan_container .box:nth-child(3) h1{
+    font-size: 40px;
+    color: rgb(238, 126, 3);
+}
+.loan_container .box:nth-child(3) .write{
+    display: flex;
+    gap: 3px;
+    color: black;
+}
+.loan_container .box:nth-child(3) .write .head{
+    font-weight: bold;
+}
+.loan_container .box:nth-child(3) button{
+    padding: 6px 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: transparent;
+    
 }
 
