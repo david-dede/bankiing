@@ -313,10 +313,10 @@ padding:20px 35px;
     justify-self: right;
 }
 .closa .box .green_box
-/* .closa .box{
+.closa .box{
     display: flex;
     clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
-} */
+}
 .closa .orange{
     background-color: rgb(238, 126, 3);
 }
