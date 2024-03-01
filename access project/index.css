@@ -293,4 +293,13 @@ padding:20px 35px;
     background-color: transparent;
     
 }
+.closa .box{
+    background-color:rgb(164, 197, 25) ;
+}
+.closa{
+    display: flex;
+}
+.image{
+    background-image: url(./pictures/closaadv.jpeg);
+}
 
