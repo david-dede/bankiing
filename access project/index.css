@@ -301,5 +301,7 @@ padding:20px 35px;
 }
 .image{
     background-image: url(./pictures/closaadv.jpeg);
+    height: 600px;
+    background-size: cover;
 }
 
