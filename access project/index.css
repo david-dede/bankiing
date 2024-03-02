@@ -359,4 +359,33 @@ padding:20px 35px;
     /* margin-top: 20px; */
     padding: 20px 60px 20px 0px;
 }
+.orange_box{
+        background-color: rgb(238, 126, 3);
+            padding: 2rem 2rem 2rem 10vw;
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+            height: 100%;
+            width: 45%;
+            z-index: 3;
+            /* position: absolute; */
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            align-self: flex-end;
+            gap: 0.1rem;
+}
+.greenbox{
+        content: "";
+            position: absolute;
+            width: 98%;
+            height: 100%;
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+            background: var(--personal);
+            top: 0;
+            left: 0px;
+            z-index: -1;
+        }
+
 
