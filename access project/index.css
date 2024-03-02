@@ -385,7 +385,7 @@ padding:20px 35px;
             /* background: var(--personal); */
             background-color: rgb(164, 197, 25);
             top: 0;
-            left: 0px;
+            /* left: 0px; */
             /* z-index: -1; */
         }
 
