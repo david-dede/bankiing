@@ -382,10 +382,10 @@ padding:20px 35px;
             width: 98%;
             height: 100%;
             clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
-            background: var(--personal);
+            /* background: var(--personal); */
             top: 0;
             left: 0px;
-            z-index: -1;
+            /* z-index: -1; */
         }
 
 
