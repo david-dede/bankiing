@@ -383,6 +383,7 @@ padding:20px 35px;
             height: 100%;
             clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
             /* background: var(--personal); */
+            background-color: rgb(164, 197, 25);
             top: 0;
             left: 0px;
             /* z-index: -1; */
