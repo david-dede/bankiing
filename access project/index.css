@@ -300,11 +300,13 @@ padding:20px 35px;
     display: flex;
     
 }
-/* .image{
+.image{
     background-image: url(./pictures/closaadv.jpeg);
-    height: 600px;
+    height: 400px;
+    width: 65%;
     background-size: cover;
-} */
+    background-position: center;
+}
 .closa img{
     /* height: 300px; */
     /* background-size: cover; */
@@ -312,21 +314,49 @@ padding:20px 35px;
     display: flex;
     justify-self: end;
     justify-self: right;
+    width: 65%;
+    height: 400px;
 }
 .closa .box {
-    /* margin-right: -60px; */
-    clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+    margin-right: -100px;
+    clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
 }
 .closa .box{
     display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+.closa .box .green_box{
+    /* padding: 75px 140px; */
+   
 }
 .closa .orange{
     background-color: rgb(238, 126, 3);
-        transform: skew(-16.5deg);
-        margin-right: 70px;
+        transform: skew(-8.3deg);
+        width: 12px;
+        margin-right: 29.5px;
         /* margin-left: -54px; */
         /* margin-right: -60px; */
         /* position: relative;
         z-index: 10; */
+}
+.closa .box .green_box .head:nth-child(1){
+    font-size: 26px;
+    font-weight: bold;
+}
+.closa .box .green_box .head:nth-child(2){
+    font-size: 48px;
+    font-weight: bold;
+}
+.closa .box .green_box .head:nth-child(3){
+    font-size: 30px;
+}
+.closa .box .green_box .write{
+    font-size: 28px;
+    /* margin-top: 20px; */
+    padding: 20px 60px 20px 0px;
 }
 
