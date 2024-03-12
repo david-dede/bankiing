@@ -634,7 +634,7 @@ background-color: rgb(1, 63, 134);
     font-size: 21px;
 }
 .picture_container .box3 p{
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 .picture_container .box3 button{
     background-color: transparent;
