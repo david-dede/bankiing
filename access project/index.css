@@ -361,10 +361,10 @@
     width: 45%;
 }
 
-.closa .box .green_box {
+/* .closa .box .green_box {
     /* padding: 75px 140px; */
 
-}
+/* } */ */
 
 .closa .orange {
     background-color: rgb(238, 126, 3);
@@ -524,18 +524,23 @@
     /* padding: 0px 400px; */
 }
 .blue_box .bbox{
-    background-color: orange;
+    /* background-color: orange; */
 
 }
 .bbbox{
-    background-color: aqua;
+    background-color: rgb(238, 126, 3);
+        clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+        width: 95%;
 }
 .iin_box{
     /* padding: 200px; */
+    width: 95%;
+    background-color: rgb(1, 63, 134);
+        clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
 }
 .test{
     display: flex;
-    padding: 0px 200px;
+    padding: 0px 180px;
     gap: 20px;
     color: white;
     margin-top: -125px;
@@ -554,4 +559,87 @@
     padding: 6px 12px ;
     font-size: 16px;
     margin-top: 20px;
+}
+.tranbox{
+    background-color: transparent;
+    /* padding: 20px; */
+        clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+}
+ul li a{
+        width: 176px;
+            height: 151px;
+            border: 4px solid hsla(212, 99%, 26%, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            transition: all 0.2s;
+            margin: auto;
+            text-decoration: none;
+            /* margin-right: 1rem; */
+}
+ul li a:hover{
+    background-color: rgb(238, 126, 3);
+    border: none;
+    color: white;
+    box-shadow: 3px pink;
+}
+ul {
+
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: center;
+list-style: none;
+
+}
+.picture_container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.picture_container img{
+    width: 370px;
+    position: relative;
+}
+.picture_container .box1{
+    height: 200px;
+    width: 370px;
+    background-color: transparent;
+    margin-top: -100px;
+    z-index: 2;
+position: relative;
+}
+.picture_container .box2{
+    width: 95%;
+    height: 200px;
+    background-color: rgb(238, 126, 3);
+    clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+}
+.picture_container .box3{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+background-color: rgb(1, 63, 134);
+    clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+    color: white;
+    gap: 20px;
+    
+    padding: 25px;
+}
+.picture_container .box3 h1{
+    font-size: 21px;
+}
+.picture_container .box3 p{
+    font-size: 16px;
+}
+.picture_container .box3 button{
+    background-color: transparent;
+    font-size: 16px;
+    padding: 6px 12px ;
+    color: white;
+    border: white 2px solid;
 }
