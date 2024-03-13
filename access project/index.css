@@ -515,9 +515,9 @@
 }
 .image_box img {
     /* gap: 20px; */
-    /* height: 349px; */
+    height: 349px;
     width: 357px;
-/* } */
+}
 .blue_box{
     display: flex;
     /* gap: 20px; */
