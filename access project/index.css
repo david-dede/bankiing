@@ -550,11 +550,11 @@
 }
 .bbbox .iin_box p{
     margin-top: 20px;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 .bbbox .iin_box button{
-    /* color: white; */
-    /* background-color: transparent; */
+    color: white;
+    background-color: transparent;
     border: 2px white solid;
     padding: 6px 12px ;
     font-size: 16px;
