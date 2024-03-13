@@ -625,13 +625,13 @@ position: relative;
     height: 200px;
 background-color: rgb(1, 63, 134);
     clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
-    color: white;
+    /* color: white; */
     gap: 20px;
     
     padding: 25px;
 }
 .picture_container .box3 h1{
-    /* font-size: 21px; */
+    font-size: 21px;
 }
 .picture_container .box3 p{
     font-size: 16px;
