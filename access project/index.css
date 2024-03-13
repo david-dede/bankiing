@@ -605,7 +605,7 @@ list-style: none;
 .picture_container .box1{
     height: 200px;
     width: 370px;
-    background-color: transparent;
+    /* background-color: transparent; */
     margin-top: -100px;
     z-index: 2;
 position: relative;
