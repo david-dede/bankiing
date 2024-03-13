@@ -631,7 +631,7 @@ background-color: rgb(1, 63, 134);
     padding: 25px;
 }
 .picture_container .box3 h1{
-    font-size: 21px;
+    /* font-size: 21px; */
 }
 .picture_container .box3 p{
     font-size: 16px;
@@ -640,6 +640,6 @@ background-color: rgb(1, 63, 134);
     background-color: transparent;
     font-size: 16px;
     padding: 6px 12px ;
-    /* color: white; */
+    color: white;
     border: white 2px solid;
 }
