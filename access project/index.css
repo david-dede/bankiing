@@ -548,7 +548,7 @@
 .bbbox .iin_box{
     padding: 30px;
 }
-/* .bbbox .iin_box p{ */
+.bbbox .iin_box p{
     margin-top: 20px;
     font-size: 16px;
 }
