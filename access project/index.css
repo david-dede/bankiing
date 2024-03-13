@@ -549,8 +549,8 @@
     padding: 30px;
 }
 .bbbox .iin_box p{
-    margin-top: 20px;
-    /* font-size: 16px; */
+    /* margin-top: 20px; */
+    font-size: 16px;
 }
 .bbbox .iin_box button{
     color: white;
