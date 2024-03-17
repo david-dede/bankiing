@@ -668,7 +668,7 @@ background-color: rgb(1, 63, 134);
 }
 .icons ul li:nth-child(2):hover {
     color: white;
-    /* background-image: url(./pictures/online-banking.jpg); */
+    background-image: url(./pictures/online-banking.jpg);
     background-size: cover;
     background-position: center;
 }
