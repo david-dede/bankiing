@@ -680,7 +680,7 @@ background-color: rgb(1, 63, 134);
 }
 .icons ul li:nth-child(4):hover {
     color: white;
-    /* background-image: url(./pictures/platinum-icon-bg_1.png); */
+    background-image: url(./pictures/platinum-icon-bg_1.png);
     background-size: cover;
     background-position: center;
 }
