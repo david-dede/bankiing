@@ -674,7 +674,7 @@ background-color: rgb(1, 63, 134);
 }
 .icons ul li:nth-child(3):hover {
     color: white;
-    background-image: url(./pictures/mobile-banking.png);
+    /* background-image: url(./pictures/mobile-banking.png); */
     background-size: cover;
     background-position: center;
 }
