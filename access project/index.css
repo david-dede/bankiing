@@ -6,6 +6,8 @@
 
 .full_body {
     background-color: rgb(241, 241, 241);
+    font-family: ef;
+    font-family: co;
 }
 
 .first_dashboard nav {
@@ -565,7 +567,7 @@
     /* padding: 20px; */
         clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
 }
-ul li a{
+.small_b0x ul li a{
         width: 176px;
             height: 151px;
             border: 4px solid hsla(212, 99%, 26%, 0.2);
@@ -578,13 +580,13 @@ ul li a{
             text-decoration: none;
             /* margin-right: 1rem; */
 }
-ul li a:hover{
+.small_b0x ul li a:hover{
     background-color: rgb(238, 126, 3);
     border: none;
     color: white;
     box-shadow: 3px pink;
 }
-ul {
+.small_b0x ul {
 
 display: flex;
 gap: 20px;
@@ -642,4 +644,65 @@ background-color: rgb(1, 63, 134);
     padding: 6px 12px ;
     color: white;
     border: white 2px solid;
+}
+.icons ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons ul li{
+    /* background-color: orchid; */
+    padding:60px 30px;
+    list-style: none;
+    font-size:  50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition-duration: 0.3s;
+} 
+.icons ul li:nth-child(1):hover{
+    color: white;
+    background-image: url(./pictures/901.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.icons ul li:nth-child(2):hover {
+    color: white;
+    background-image: url(./pictures/online-banking.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.icons ul li:nth-child(3):hover {
+    color: white;
+    background-image: url(./pictures/mobile-banking.png);
+    background-size: cover;
+    background-position: center;
+}
+.icons ul li:nth-child(4):hover {
+    color: white;
+    background-image: url(./pictures/platinum-icon-bg_1.png);
+    background-size: cover;
+    background-position: center;
+}
+.icons ul li:nth-child(5):hover {
+    color: white;
+    background-image: url(./pictures/901.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.icons ul li:nth-child(6):hover {
+    color: white;
+    background-image: url(./pictures/online-banking.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.icons ul li:nth-child(4){
+    padding:52.3px  30px;
+}
+.icons ul li i{
+
+}
+.icons ul li p{
+    font-size: 15px;
+    /* padding: 0px 10px 0px 0px ; */
 }
