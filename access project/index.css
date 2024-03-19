@@ -706,3 +706,37 @@ background-color: rgb(1, 63, 134);
     font-size: 15px;
     /* padding: 0px 10px 0px 0px ; */
 }
+.new_container{
+    /* height: 70px; */
+    display: flex;
+}
+.new_container .title{
+    /* position: absolute; */
+background-color: red;
+height: 100%;
+white-space: nowrap;
+display: flex;
+align-items: center;
+padding: 10px 24px ;
+}
+.new_container ul{
+    display: flex;
+    list-style: none;
+    animation: scroll 25s infinite linear;
+    /* ali */
+}
+.new_container ul li{
+    white-space: nowrap;
+    padding: 10px 20px ;
+
+}
+@keyframes scrool{
+    from{ 
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-2000px);
+    }
+     
+}
+
