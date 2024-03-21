@@ -12,7 +12,7 @@
 
 .first_dashboard nav {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     padding: 0px 40px;
 
 }
