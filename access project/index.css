@@ -726,7 +726,7 @@ padding: 10px 24px ;
     /* ali */
 }
 .new_container ul li{
-    /* white-space: nowrap; */
+    white-space: nowrap;
     /* padding: 10px 20px ; */
 
 }
