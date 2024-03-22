@@ -726,8 +726,8 @@ padding: 10px 24px ;
     /* ali */
 }
 .new_container ul li{
-    white-space: nowrap;
-    padding: 10px 20px ;
+    /* white-space: nowrap; */
+    /* padding: 10px 20px ; */
 
 }
 @keyframes scrool{
